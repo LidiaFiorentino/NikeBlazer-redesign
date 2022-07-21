@@ -1,0 +1,494 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header{
+    background-color: black;
+    display: flex;
+    height: 100%;
+    
+}
+
+.flex1 {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.menu1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+}
+
+#white {
+  background-color: white;
+    width: 30%;
+    display: block;
+    flex-direction: column;
+}
+
+.logo{
+    height: 40px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.bt1{
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 32px;
+    margin-right: 30px;
+}
+
+
+.center {
+
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nike{
+    
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+
+#rotated-nike {
+    font-size: 140px;
+    letter-spacing: -8px;
+    font-weight: bold;
+    transform: rotate(-90deg);
+    margin-bottom: -150px;
+    margin-right: -80px;
+}
+
+
+.bla{
+    font-weight: 700;
+    font-size: 80px;
+    letter-spacing: -8px;
+    margin-bottom: -155px;
+    
+   
+
+}
+
+.numero{
+    font-family: 'Assistant', sans-serif;
+    font-weight: 500;
+    font-size: 320px;
+    margin-top: 20px;
+    margin-left: -10px;
+    
+    
+}
+
+.blan{
+    margin-top: 210px;
+    margin-right: -12px;
+   
+}
+
+
+#black {
+    width: 30%;
+    display:block;
+    flex-direction: column;
+}
+
+.menu2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    
+}
+
+
+.nt{
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 32px;
+    margin-left: 30px;
+}
+
+
+.zer{
+     font-weight: 700;
+    font-size: 80px;
+    letter-spacing: -5px;
+    margin-bottom: -157px;
+   
+
+}
+
+.numero2{
+    font-family: 'Assistant', sans-serif;
+    font-weight: 500;
+    font-size: 320px;
+    margin-top: 23px;
+    margin-left: -12px;
+    
+    
+}
+
+.zer7{
+    margin-top: 213px;
+    margin-left:0px;
+    color: white;
+    
+   
+}
+
+.immagine {
+    width: 40%;
+    align-self: flex-start;
+ 
+}
+
+
+section{
+    flex-direction: column;
+}
+
+#logo2{
+    display: flex;
+    margin-top: 200px;
+    justify-content:center;
+}
+
+.logo22{
+    
+    width: 60px;
+}
+
+
+#menu3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+#collection1{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 60px;
+    
+}
+.collection{
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 60px;
+    margin-left: 30px;
+}
+
+#icons{
+   display: flex;
+    justify-content: flex-end;
+    padding-right: 90px;
+    
+    
+}
+
+.icon1{
+    
+    width: 35px;
+    height: 35px;
+    margin-left: 30px;
+    padding-top: 60px;
+    
+}
+.icon2{
+    
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+    padding-top: 58px;
+    
+}
+
+#ricerca{ 
+    display: flex;
+    justify-content:flex-end;
+    flex-wrap: wrap;
+    font-size: 15px;
+    padding-top: 100px;
+    padding-right: 90px;
+    
+}
+
+.ricerca2{
+    width: 17px;
+    height: 17px;
+    margin: 1px;
+    
+}
+
+.ricerca3{
+    margin-left: 60px;
+}
+
+#scarpe{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+
+.scarpa1{
+    
+    width: 250px;
+    margin: 30px;
+    
+}
+
+.scarpa2{
+    
+    background-color: #f5f1f4;
+    width: 300px;
+    margin: 45px;
+}
+
+#prezzo{
+     display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+   
+    
+}
+
+.NBeuro{
+   display: flex;
+   justify-content: space-around; 
+    margin-right: 90px;
+    
+}
+
+.NB{
+    margin-right:80px;
+    
+}
+
+#border{
+    display: flex;
+    justify-content:center;
+         
+}
+
+.mostra{
+    margin: 15px;
+    border:1px solid;
+    border-radius: 15px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+     margin-top:150px;
+    
+}
+
+#history1{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 60px;
+    
+}
+.history{
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 100px;
+    margin-left: 30px;
+}
+
+#part1{
+    display: flex;
+    justify-content: space-between;
+}
+
+#position {
+   position: relative;
+  
+ 
+}
+.historyfoto1 {
+  position: absolute;
+  width: 720px;
+  padding-top: 130px;
+}
+
+@font-face {
+  font-family: total90;
+  src: url(total90.ttf);
+}
+
+.text {
+  z-index: 2;
+  position: absolute;
+  font-family: 'total90', sans-serif;
+  font-size: 120px;
+  font-weight: 700;
+  left: 592px;
+  top: 105px;
+}
+
+.text1{
+    
+    padding-top: 280px;
+    padding-right: 250px;
+    line-height: 200%;
+    font-size: 120%
+}
+
+#part2{
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+p{
+    padding-top: 210px;
+   font-size: 50px; 
+    font-weight: 500;
+    line-height: 100%;
+ 
+}
+.text2{
+    
+   padding-left: 150px;
+    line-height: 200%;
+    font-size: 120%;
+    text-align: end;
+}
+
+
+.fotohistory2{  
+    width: 705px;
+  padding-top: 115px;
+}
+
+#part3{
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.fotohistory3 {
+  width: 720px;
+  
+}
+
+.text3{
+    
+    padding-left: 50px;
+    line-height: 200%;
+    font-size: 120%
+}
+
+#logo3{
+    display: flex;
+    margin-top: 200px;
+    justify-content:center;
+}
+
+.logo33{
+    
+    width: 70px;
+}
+
+#lookbook1{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 60px;
+    
+}
+.lookbook{
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 100px;
+    margin-left: 30px;
+}
+
+#lookbook2{
+    display: flex;
+    margin-top: 120px; 
+    justify-content: space-between;
+    position: relative;
+}
+
+.lookbook3{
+     
+     width: 32%;
+}
+
+.textcont {
+    z-index: 2;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0;
+    bottom: 28px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.textlb{
+  font-family: 'total90', sans-serif;
+  color: white;
+  font-size: 350px;
+ font-weight: 500;
+  margin-top: 200px;
+
+}
+
+.freccia2{
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.freccia1{
+    background-color: white;
+    border-radius: 1000px;
+    height: 32px;
+    width: 32px;
+    object-fit: scale-down;
+    padding: 5px;
+}
+
+#icone{
+    display: flex;
+    justify-content: flex-end;
+    padding: 60px;
+   
+}
+
+.icone1{
+    width: 30px;
+    height: 30px;
+    object-fit: scale-down;
+    margin: 10px;
+}
+    
